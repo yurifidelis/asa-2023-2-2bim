@@ -29,5 +29,11 @@ Não permite o acesso do usuário ao navegador escolhido, que no caso é o Chrom
 
 
 ## Teste
+Arquivo squid.conf
+Exibindo o código usado.
 
 
+Página web bloqueada pela palavra chave e o log acusando o acesso negado do facebook.
+
+Página web bloqueada pela url.
+O log mostrando o acesso negado.
