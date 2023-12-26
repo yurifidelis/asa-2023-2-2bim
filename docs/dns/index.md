@@ -75,7 +75,7 @@ mkdocs new .
 - Wordpress
 Dentro do diretório /var/www usaremos o seguinte comando
 comando wp core download --locale=pt_Br --path=html
-## Configurando o arquvio www.conf e docs.conf
+## Configurando o arquivo www.conf e docs.conf
 No diretorio /etc/apache2/(sites-enable,avaliable) econtramos dois arquivos www.conf e docs.conf. Eles são reponsaveis pelo nome do site(dns vinculado), o caminho do site e a porta usada. 
 
 
