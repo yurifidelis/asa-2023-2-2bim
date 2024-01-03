@@ -11,12 +11,12 @@ Incluir o(s) nome(s) e o conteúdo do(s) arquivo(s) de configuração.
 Comando - sudo apt install DNSMASQ
 ```
 #### Após a instalação do DNSMASQ, precisamos subir o serviço no linux.
-<br> Caso você esteja usando o ubuntu use:
+Caso você esteja usando o ubuntu use:
 ```
 comando - systemctl dnsmasq start
 ```
 
-<br>Caso você esteja usando o alpine ou semelhante use: 
+Caso você esteja usando o alpine ou semelhante use: 
 ```
 comando - service dnsmasq start
 ```
@@ -47,8 +47,7 @@ comando - touch dhcp.conf
 . dhcp-host=08:00:27:B5:E1:71,192.168.2.3
 . dhcp-host=08:00:27:6D:35:FB,192.168.2.4
 ```
-![cname](../../img/dhcp/dhcpconf.jpg)
-
+![Alt text](image.png)
 
 #### Configurando a maquina windows:
 * No windows, clique no menu "iniciar" 
@@ -62,7 +61,7 @@ comando - touch dhcp.conf
 
 
 ##### OBS: precisa delisgar o firewall para conseguir pingar
-![cname](../../img/dhcp/firewall.jpg)
+![Alt text](image-1.png)
 #### Fazendo o teste de ping com ip fixo:
 Ping 192.168.2.3 <br>
 Ping 192.168.2.4
@@ -73,7 +72,8 @@ Ping 192.168.2.4
 ```
 comando - tail -f /var/log/dnsmasq.log
 ```
-![cname](../../img/dhcp/log.jpg)
+![0](image-2.png)
+
 ## Teste
 
-![cname](../../img/dhcp/ping.jpg)
+![Alt text](image-3.png)

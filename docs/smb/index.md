@@ -12,18 +12,19 @@ Incluir o(s) nome(s) e o conteúdo do(s) arquivo(s) de configuração.
 ### Primeiro passo foi instalar o samba na máquina xarope.
 ```
 Comando - apk add samba
-``````
+```
+![Alt text](image.png)
 #### Colocando o comando no samba para levantar o domínio(noronha). Com esse comando podemos escolher o nome do domínio, dns (backend), realm.
 ```
 Comando - samba-tool domain provision –use-rcf2307 –interactive
 ```
-
+![Alt text](image-1.png)
 <H4> Continuando a construir a base do samba, nessa etapa, crio as pastas das familias que pretendo compartilhar.</H4> 
 
 ``` 
 Pastas /srv/samba/(fidelis, nascimento)
 ```
-
+![Alt text](image-2.png)
 #### Após criar as pastas das familias, nessa etapa, é preciso  entrar no arquivo(smb.conf), que se encontra na pasta (/etc/samba/), nele, eu configurei e acrescentei cada família no domínio noronha.
 #### Você precisa fazer uma configuração no arquivo smb.conf
 ```
@@ -51,7 +52,7 @@ Caminho - /etc/samba/smb.conf
         directory mask = 0770 <br>
 
 * Em seguida, iniciei a máquina windows com a conta (admin) e configurei a placa de rede local 1, que se encontrava em rede interna com a maquina real.
-
+![Alt text](image-3.png)
 ```
 rede interna: intnet
 ```
@@ -60,7 +61,7 @@ rede interna: intnet
 ```
 Programa - ActiveDirectory
 ```
-
+![Alt text](image-4.png)
 ```
 Comando: Samba-tool ou list
 ```
@@ -82,4 +83,4 @@ Em seguida na máquina windows, no usuário(marli.fidelis) de uma das famílias,
 #### Para ver se funcinou, você deve entrar no usuario criado na conta admin do windows, e colocar o domínio no menu iniciar (\\noronha), assim aparecerá as pastas compartilhadas das familias, mas cada familia poderá somente utilizar a de seu respectivo grupo.
 
 
-![imagem](../../img/smb/Capturar11.PNG)
+![Alt text](image-5.png)

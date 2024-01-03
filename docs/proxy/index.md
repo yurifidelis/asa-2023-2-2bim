@@ -31,7 +31,7 @@ Trava o acesso a rede em determinada hora, defino entre 19Hrs e 20Hrs.
 Não permite o acesso do usuário ao navegador escolhido, que no caso é o Chrome.
 	acl webbrowser browser chrome
 	http_Access deny webbrowser
-![imagem1](../../img/proxy/proxy1.PNG)
+![Alt text](image-1.png)
 
 
 
@@ -44,5 +44,6 @@ Página web bloqueada pela palavra chave e o log acusando o acesso negado do fac
 Página web bloqueada pela url.
 O log mostrando o acesso negado.
 
-![imagem1](../../img/proxy/proxy2.PNG)
-![imagem1](../../img/proxy/prxy4.PNG)
+![imaegns](image-2.png)
+
+![Alt text](image-3.png)
