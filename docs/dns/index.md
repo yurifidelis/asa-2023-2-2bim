@@ -11,6 +11,18 @@ Cinco registros (4 pontos cada):
 
 ## Instalação
 
+#### Programas necessarios:
+* samba
+* lxc
+```
+comando de instalação
+    sudo apk add lxd
+
+    sudo apk add samba
+```
+
+## Configuração
+
 Primeiro passo para realizar o serviço dns. você precisará criar a quantidade de containes necessarios para 
 seu serviço.
 
@@ -32,9 +44,5 @@ comando - lxc list
 #### criar os registros dentro das (ous) 
 
 
-
-
-
-## Configuração
 
 
