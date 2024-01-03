@@ -2,5 +2,4 @@ site_name: "ASA: Serviços para 2º bimestre"
 site_author: yuri Fidelis
 
 theme:
-  name: readthedocs
-  
+  name: kpn
