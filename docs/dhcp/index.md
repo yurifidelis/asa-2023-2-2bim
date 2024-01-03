@@ -47,6 +47,9 @@ comando - touch dhcp.conf
 . dhcp-host=08:00:27:B5:E1:71,192.168.2.3
 . dhcp-host=08:00:27:6D:35:FB,192.168.2.4
 ```
+![cname](../../img/dhcp/dhcpconf.jpg)
+
+
 #### Configurando a maquina windows:
 * No windows, clique no menu "iniciar" 
 * Com esse comando você poderar acompanhar o log.
@@ -55,8 +58,11 @@ comando - touch dhcp.conf
 * Vai aparecer um simbolo com o nome "Conexão local"
 * Clicando nela, Você entra em propriedades, e clica na opção de protocolo.
 * Nisso voce troca a opção de ip fixo para dhcp
-##### OBS: precisa delisgar o firewall para conseguir pingar
 
+
+
+##### OBS: precisa delisgar o firewall para conseguir pingar
+![cname](../../img/dhcp/firewall.jpg)
 #### Fazendo o teste de ping com ip fixo:
 Ping 192.168.2.3 <br>
 Ping 192.168.2.4
@@ -67,6 +73,7 @@ Ping 192.168.2.4
 ```
 comando - tail -f /var/log/dnsmasq.log
 ```
+![cname](../../img/dhcp/log.jpg)
 ## Teste
 
-
+![cname](../../img/dhcp/ping.jpg)

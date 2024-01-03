@@ -31,18 +31,18 @@ seu serviço.
 comando - lxc launch images:/versão/caminho/ nome-do-container
 
 ```
+![cname](../../img/dns/dd.jpg)
 
 #### Seguindo o passo seguinte, devemos obter o ip do container:
 
 ```
 comando - lxc list
 ```
+![cname](../../img/dns/cnmas.jpg)
 
-
-#### Assim os containers aparecerão na sua tela, com os ips.
-#### Com os ips em mão, precisamos utilizar Active Directory do windows que você utilizou o serve samba(noronoha.lab) e 
-#### criar os registros dentro das (ous) 
-
+#### Assim os containers aparecerão na sua tela, com os ips. Com os ips em mão, precisamos utilizar gerenciador dns do windows que você utilizou o serve samba(noronoha.lab) e criar os registros dentro das (ous) 
+![cname](../../img/dns/cname.jpg)
 
 
 
+![cname](../../img/dns/host.jpg)

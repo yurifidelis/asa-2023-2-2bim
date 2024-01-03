@@ -48,7 +48,4 @@ samba-tool user add usuario2
 samba-tool group addmembers sobrenome1 usuario1
 samba-tool group addmembers sobrenome2 usuario2
 
-```
 ## Teste
-
-
