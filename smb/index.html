@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--
+    The page_title contains the title for a page as shown in the navigation.
+    Site name contains the name as defined in the mkdocs.yml
+  -->
+  <title>SMB - ASA: Serviços para 2º bimestre</title>
+
+  <!-- Page description -->
+  
+
+  <!-- Redirect -->
+  
+
+  <!-- Page author -->
+  
+    <meta name="author" content="yuri Fidelis" />
+  
+  <!--
+    Just add a favicon.ico image to the docs.
+  -->
+  <link rel="shortcut icon" href="../img/favicon.ico">
+
+  <link rel="stylesheet" href="../css/colors.css">
+  <link rel="stylesheet" href="../css/bundle.css">
+  <link rel="stylesheet" href="../css/theme.css">
+  <link media="print" onload="this.media='all'" rel="stylesheet" href="../css/atom-dark-one.min.css">
+  <!--
+    extra_ess contains paths to CSS files in the users
+    documentation directory or a list of CSS files defined in
+    their mkdocs.yml.
+
+    http://www.mkdocs.org/user-guide/configuration/#extra_css
+  -->
+  
+
+  
+  
+
+  <!--
+    Include Google Analytics tracking code.
+
+    http://www.mkdocs.org/user-guide/configuration/#google_analytics
+  -->
+  
+
+</head>
+
+<body>
+<input id="dark-mode" type="checkbox" />
+<!--
+  The JS has to be loaded here for maximum performance, right after the #dark-mode
+-->
+<script src="../js/theme.js"></script>
+<div class="app-body">
+  <!-- KPN STYLE Beginning -->
+  <div class="app-layout ">
+    <!-- Top Bar -->
+    <nav class="app-layout__top-bar top-bar">
+      <a class="top-bar__logo">
+        <img alt="KPN Logo" src="../img/logo-kpn.svg" />
+      </a>
+      <div class="top-bar__title">ASA: Serviços para 2º bimestre</div>
+      <ul class="top-bar__menu">
+        <!--
+          Create a search form that sends the user to the search.html file - this is
+          the other file in the template which adds search to the theme. The only
+          requirement here is that there is a text input with the name 'q' and the
+          action and methods match below.
+        -->
+          <li class="top-bar__item">
+
+            <span role="search" id="search-input-wrapper">
+              <form action="../search.html" method="get">
+                <input type="text" class="input" id="search-input" name="q" placeholder="Search..." />
+              </form>
+            </span >
+          </li>
+        <!--
+          Versioning support
+        -->
+        
+        <!--
+          Support repo URL
+        -->
+        <li class="top-bar__item">
+          
+        </li>
+
+        <li class="top-bar__item">
+            <label class="top-bar__link" id="label-dark-mode" for="dark-mode" title="Dark mode">
+              <svg alt="dark mode" width="24" height="24">
+                <image xlink:href="../img/ui-bulb.svg" width="24" height="24"/>
+            </svg>
+            </label>
+        </li>
+        <li class="top-bar__item top-bar__item--trigger"></li>
+
+        <!-- <li class="top-bar__item">
+
+          <a class="top-bar__link top-bar__link--active">Home</a>
+        </li>
+        <li class="top-bar__item"><a class="top-bar__link">Information</a></li>
+        <li class="top-bar__item">
+          <a class="top-bar__link top-bar__link--collapsed">Getting Started</a>
+
+        </li>
+        <li class="top-bar__item top-bar__item--trigger">Menu</li> -->
+      </ul>
+    </nav>
+
+    <!--
+      Create the navigation for the documentation.
+
+      Because we don't know how many levels deep the navigation is, it needs to
+      be included in it's own file so it can be recursive. Otherwise the theme
+      can also only support a specific number of levels.
+
+      See the nav.html file for more details about how this works.
+    -->
+    <nav class="app-layout__side-bar side-bar">
+      <div class="side-bar__action-bar">
+        <a class="side-bar__link" href="/">ASA: Serviços para 2º bimestre</a>
+        <!--
+          Versioning support
+        -->
+        
+        <button class="side-bar__close"></button>
+      </div>
+      <ul class="side-bar__menu">
+        
+          <!--
+
+-->
+
+<li>
+  <a href=".." class="side-bar__link ">
+    Serviços para o 2º bimestre
+  </a>
+</li>
+
+        
+          <!--
+
+-->
+
+  <li>
+    <span class="side-bar__link side-bar__link--collapsed">
+      Dhcp
+    </span>
+    <ul class="side-bar__sub-menu ">
+        
+            <!--
+
+-->
+
+<li>
+  <a href="../dhcp/" class="side-bar__link ">
+    DHCP
+  </a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+          <!--
+
+-->
+
+  <li>
+    <span class="side-bar__link side-bar__link--collapsed">
+      Dns
+    </span>
+    <ul class="side-bar__sub-menu ">
+        
+            <!--
+
+-->
+
+<li>
+  <a href="../dns/" class="side-bar__link ">
+    DNS
+  </a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+          <!--
+
+-->
+
+  <li>
+    <span class="side-bar__link side-bar__link--collapsed">
+      Ldap
+    </span>
+    <ul class="side-bar__sub-menu ">
+        
+            <!--
+
+-->
+
+<li>
+  <a href="../ldap/" class="side-bar__link ">
+    LDAP
+  </a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+          <!--
+
+-->
+
+  <li>
+    <span class="side-bar__link side-bar__link--collapsed">
+      Proxy
+    </span>
+    <ul class="side-bar__sub-menu ">
+        
+            <!--
+
+-->
+
+<li>
+  <a href="../proxy/" class="side-bar__link ">
+    PROXY
+  </a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+          <!--
+
+-->
+
+  <li>
+    <span class="side-bar__link side-bar__link--expanded side-bar__link--active">
+      Smb
+    </span>
+    <ul class="side-bar__sub-menu side-bar__sub-menu--visible">
+        
+            <!--
+
+-->
+
+<li>
+  <a href="./" class="side-bar__link side-bar__link--active">
+    SMB
+  </a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+      </ul>
+    </nav>
+
+    <!-- MAIN BLOCK -->
+    <main class="app-layout__main main">
+      <div class="app-layout__title-bar title-bar">
+        <div class="title-bar__title">SMB</div>
+      </div>
+      
+      <div class="sidebar--secondary hidden-s hidden-xs">
+        <h4>Table of contents</h4>
+        <ul>
+        
+          
+            
+                <li><a class="a" href="#avaliacao">AVALIAÇÃO</a></li>
+                
+            
+                <li><a class="a" href="#instalacao">Instalação</a></li>
+                
+                    <li class="child-li"><a class="a child" href="#primeiro-passo-foi-instalar-o-samba-na-maquina-xarope">Primeiro passo foi instalar o samba na máquina xarope.</a></li>
+                
+            
+                <li><a class="a" href="#teste">Teste</a></li>
+                
+            
+          
+        
+        </ul>
+      </div>
+      
+      <div class="container content-block">
+        <div class="kpn-style">
+          <div class="card">
+            <div class="card__body">
+
+              
+              <h1 id="smb">SMB</h1>
+<h2 id="avaliacao">AVALIAÇÃO</h2>
+<p>Incluir o(s) nome(s) e o conteúdo do(s) arquivo(s) de configuração.</p>
+<ol>
+<li>Criar 2 grupos para dois de seus sobrenomes;</li>
+<li>Criar 4 usuários, dois para cada um dos sobrenomes;</li>
+<li>Compartilhar duas pastas com dois de seus sobrenome, compartilhado para o grupo com o sobrenome correspondente.</li>
+</ol>
+<h2 id="instalacao">Instalação</h2>
+<h3 id="primeiro-passo-foi-instalar-o-samba-na-maquina-xarope">Primeiro passo foi instalar o samba na máquina xarope.</h3>
+<pre><code>Comando - apk add samba
+</code></pre>
+<p><img alt="Alt text" src="image.png" /></p>
+<h4 id="colocando-o-comando-no-samba-para-levantar-o-dominionoronha-com-esse-comando-podemos-escolher-o-nome-do-dominio-dns-backend-realm">Colocando o comando no samba para levantar o domínio(noronha). Com esse comando podemos escolher o nome do domínio, dns (backend), realm.</h4>
+<pre><code>Comando - samba-tool domain provision –use-rcf2307 –interactive
+</code></pre>
+<p><img alt="Alt text" src="image-1.png" /></p>
+<H4> Continuando a construir a base do samba, nessa etapa, crio as pastas das familias que pretendo compartilhar.</H4>
+
+<pre><code>Pastas /srv/samba/(fidelis, nascimento)
+</code></pre>
+<p><img alt="Alt text" src="image-2.png" />
+Após criar as pastas das familias, nessa etapa, é preciso  entrar no arquivo(<code>smb.conf</code>), que se encontra na pasta (<code>/etc/samba/</code>), nele, eu configurei e acrescentei cada família no domínio noronha. Você precisa fazer uma configuração no arquivo <code>smb.conf</code>.</p>
+<pre><code>Caminho - /etc/samba/smb.conf
+</code></pre>
+<h4 id="dentro-do-smbconf-configuramos-o-samba-para-encaminhar-os-grupos-e-seus-diretorios">Dentro do smb.conf, configuramos o samba para encaminhar os grupos e seus diretorios.</h4>
+<pre><code class="language-ini">[GLOBAL]
+
+[FIDELIS]
+        path = /srv/samba/fidelis &lt;br&gt;
+        available = yes &lt;br&gt;
+        valid users = @fidelis 
+        browseable = yes 
+        read only = no 
+        create mask = 0600 
+        directory mask = 0770 
+[NASCIMENTO]
+        path = /srv/samba/nascimento 
+        available = yes 
+        valid users = @nascimento 
+        browseable = yes 
+        read only = no  
+        crate mask = 0600 
+        directory mask = 0770 
+</code></pre>
+<ul>
+<li>Em seguida, iniciei a máquina windows com a conta (admin) e configurei a placa de rede local 1, que se encontrava em rede interna com a maquina real.
+<img alt="Alt text" src="image-3.png" /></li>
+</ul>
+<pre><code>rede interna: intnet
+</code></pre>
+<h4 id="assim-que-configurei-a-placa-com-o-ip-da-maquina-linux-eu-entrei-na-ferramenta-usuarios-e-domputadores-do-ad-e-criei-duas-ou-nortesul-dentro-da-ou-norte-coloquei-as-duas-familias-pela-interface-grafica">Assim que configurei a placa com o ip da máquina linux. eu entrei na ferramenta Usuários e domputadores do AD, e criei duas OU (norte,sul) dentro da (OU-NORTE) coloquei as duas famílias pela interface grafica.</h4>
+<pre><code>Programa - ActiveDirectory
+</code></pre>
+<p><img alt="Alt text" src="image-4.png" /></p>
+<pre><code>Comando: Samba-tool ou list
+</code></pre>
+<p>Obs: Listei no linux, usando o comando samba-tool ou list, as unidades organizacionais.</p>
+<p>OBS: para abrir as pastas no windows, você vai no "menu iniciar" e escreve o nome do seu dominio dessa forma:</p>
+<pre><code>comando - \\noronha
+</code></pre>
+<p>As proximas etapas é a ativação do compartilhamento de pastas da mesma rede.</p>
+<p>Em seguida na máquina windows, no usuário(marli.fidelis) de uma das famílias, eu cliquei no botão iniciar, e digite o domínio(noronha).</p>
+<h2 id="teste">Teste</h2>
+<p>Para ver se funcinou, você deve entrar no usuario criado na conta admin do windows, e colocar o domínio no menu iniciar (<code>\\noronha</code>), assim aparecerá as pastas compartilhadas das familias, mas cada familia poderá somente utilizar a de seu respectivo grupo.</p>
+<p><img alt="Alt text" src="image-5.png" /></p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__body">
+        
+        <div class="row">
+          <div class="col col--s-4 col--m-3 col--l-2">
+          </div>
+          <div class="col col--s-4 col--m space-between">
+            
+              <a class="footer__link padding-top-0 navigation-prev"
+                href="../proxy/"
+                title="PROXY">
+                &#8592; Previous Page
+              </a>
+            
+            
+            
+                Next Page &#8594;
+            
+          </div>
+          <div class="col col--s-4 col--m-3 ">
+          </div>
+        </div>
+        
+      </div>
+    </footer>
+  </div>
+
+
+  <!--
+  MkDocs version      : 1.5.3
+  Docs Build Date UTC : 2024-01-05 00:53:33.536984+00:00
+  -->
+
+  <!--
+    To include static assets from our theme, just add
+    .. beforehand which will be the relative path to
+    the root of the documentation.
+  -->
+  <script src="../js/highlight.min.js"></script>
+  <script src="../js/languages/groovy.min.js"></script>
+  <script src="../js/languages/asciidoc.min.js"></script>
+  <script src="../js/languages/nix.min.js"></script>
+
+  <script>
+    hljs.highlightAll();
+  </script>
+  <script async src="../js/detail.js"></script>
+  <!--
+    extra_javascript contains paths to JavaScript files in the
+    users documentation directory or a list of JavaScript files
+    defined in their mkdocs.yml.
+
+    http://www.mkdocs.org/user-guide/configuration/#extra_javascript
+  -->
+  
+    <script src="../search/main.js"></script>
+  
+
+
+  <script>
+  function getMermaidTheme() {
+    if (document.getElementById("dark-mode").checked) {
+      return 'dark'
+    }
+    return 'forest'
+  }
+
+  function initMermaid() {
+    mermaid.initialize({
+      theme: getMermaidTheme(),
+      logLevel: 1,
+    });
+  }
+  var mermaidClass = document.getElementsByClassName('mermaid');
+  if (mermaidClass.length > 0) {
+
+    var mermaidScript = document.createElement('script');
+    mermaidScript.setAttribute("src", "../js/mermaid.min.js");
+    mermaidScript.setAttribute("async", "false");
+    mermaidScript.setAttribute("type", "text/javascript");
+    mermaidScript.onload = initMermaid;
+    document.body.appendChild(mermaidScript)
+
+  }
+  </script>
+
+</div>
+</body>
+</html>
